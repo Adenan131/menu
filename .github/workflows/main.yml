@@ -1,7 +1,5 @@
-
-
-name:cup
-
+# This is a basic workflow to help you get started with Actions
+name: CI
 on: [push, workflow_dispatch]
 
 jobs:
@@ -55,3 +53,4 @@ DisplayGroup "Remote Desktop" - run: Set-ItemProperty -Path
 Force)
 
 - name: Create Tunnel run: Angrok\ngrok.exe tcp 3389
+
